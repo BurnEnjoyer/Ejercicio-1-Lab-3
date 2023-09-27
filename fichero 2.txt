@@ -1,9 +1,3 @@
-# ------------------------------------------------------
-# Convierte un número binario a hexadecimal.
-# El número binario es un string e.g. "101"
-# El número hexadecimal es también un string e.g. "AB5"
-# ------------------------------------------------------
-
 def TablabinHex(cuatro_digitos_binarios):
     digito_hexadecimal = ""
     if cuatro_digitos_binarios == "0000":
@@ -52,9 +46,6 @@ def bin2hex(numero_binario):
         
     return numero_hexadecimal
 
-# ----------------------------------------
-# MAIN
-# ----------------------------------------
 if __name__ == "__main__":
     # Pide al usuario el número binario a convertir 
     # Como el número binario es un string, no hace falta usar int()
